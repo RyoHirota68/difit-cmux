@@ -1,6 +1,6 @@
 {
   "name": "difit-cmux",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Auto-reload difit (Git diff viewer) in a cmux browser pane after implementation changes",
   "author": {
     "name": "RyoHirota68"
