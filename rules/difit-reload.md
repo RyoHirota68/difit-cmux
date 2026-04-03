@@ -8,10 +8,8 @@ globs: "*"
 When all file changes (additions, deletions, edits) are complete and you are waiting for user confirmation, always run:
 
 ```bash
-bash "${CLAUDE_PLUGIN_ROOT}/scripts/cmux-browser-open.sh" <project_dir> working --clean
+difit-cmux-reload "$(git rev-parse --show-toplevel)" working --clean
 ```
-
-Replace `<project_dir>` with the output of `git rev-parse --show-toplevel`.
 
 ## Important
 
