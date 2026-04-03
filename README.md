@@ -18,7 +18,8 @@ Auto-reload [difit](https://github.com/nicolo-ribaudo/difit) (Git diff viewer) i
 ## Installation
 
 ```bash
-claude plugin add --source github --repo RyoHirota68/difit-cmux
+claude plugin marketplace add RyoHirota68/difit-cmux
+claude plugin install difit-cmux
 ```
 
 ## How it works
