@@ -19,7 +19,7 @@ If difit is already running, the browser surface is reused — no extra panes ar
 2. Run:
 
 ```bash
-difit-cmux-reload <project_dir> [difit-args...]
+bash ~/.claude/scripts/cmux-browser-open.sh <project_dir> [difit-args...]
 ```
 
 - If `$ARGUMENTS` is empty, default to `working --clean`.
@@ -28,6 +28,6 @@ difit-cmux-reload <project_dir> [difit-args...]
 ## Examples
 
 ```bash
-difit-cmux-reload <project_dir> working --clean
-difit-cmux-reload <project_dir> working --clean --comment '{"type":"thread","filePath":"src/foo.swift","position":{"side":"new","line":10},"body":"Needs fix"}'
+bash ~/.claude/scripts/cmux-browser-open.sh <project_dir> working --clean
+bash ~/.claude/scripts/cmux-browser-open.sh <project_dir> working --clean --comment '{"type":"thread","filePath":"src/foo.swift","position":{"side":"new","line":10},"body":"Needs fix"}'
 ```

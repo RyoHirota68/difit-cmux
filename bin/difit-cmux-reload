@@ -1,5 +1,0 @@
-#!/bin/bash
-# Wrapper so that rules can call this by command name (via PATH)
-# without needing ${CLAUDE_PLUGIN_ROOT}.
-SCRIPT_DIR="$(cd "$(dirname "$0")/../scripts" && pwd)"
-exec bash "$SCRIPT_DIR/cmux-browser-open.sh" "$@"
