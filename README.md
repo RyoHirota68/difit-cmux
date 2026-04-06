@@ -1,6 +1,6 @@
 # difit-cmux
 
-Auto-reload [difit](https://github.com/nicolo-ribaudo/difit) (Git diff viewer) in a [cmux](https://cmux.dev) browser pane after every implementation change.
+Auto-reload [difit](https://github.com/yoshiko-pg/difit) (Git diff viewer) in a [cmux](https://cmux.com) browser pane after every implementation change.
 
 ## Features
 
@@ -11,8 +11,8 @@ Auto-reload [difit](https://github.com/nicolo-ribaudo/difit) (Git diff viewer) i
 
 ## Prerequisites
 
-- [cmux](https://cmux.dev)
-- [difit](https://github.com/nicolo-ribaudo/difit) (`npm install -g difit`)
+- [cmux](https://cmux.com)
+- [difit](https://github.com/yoshiko-pg/difit) (`npm install -g difit`)
 - [Claude Code](https://claude.ai/code)
 
 ## Why manual setup?
