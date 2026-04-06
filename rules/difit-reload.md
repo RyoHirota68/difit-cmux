@@ -16,3 +16,4 @@ bash ~/.claude/scripts/cmux-browser-open.sh "$(git rev-parse --show-toplevel)" w
 - Execute regardless of file type (.md, .txt, .swift, etc.) or change size — no exceptions.
 - Do not skip with reasoning like "this isn't implementation" or "minor change".
 - Do not execute outside of a git repository.
+- Only execute when the changed files are inside the current project directory (the working directory of this session). Do not execute for changes made to files outside of the project directory (e.g., global config files, other repositories).
